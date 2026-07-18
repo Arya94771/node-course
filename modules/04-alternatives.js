@@ -4,3 +4,5 @@ const person={
 }
 
 module.exports.singlePerson=person
+
+require('./utils.js')
