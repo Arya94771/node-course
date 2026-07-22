@@ -1,0 +1,4 @@
+const {writeFileSync}=require('fs')
+for(let i=0;i<18;i++){
+    writeFileSync('./big_file1.txt',`hello world ${i}\n`,{flag:'a'})
+}
